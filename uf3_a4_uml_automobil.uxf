@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>0</y><w>390</w><h>180</h></coordinates><panel_attributes>transparency=90
+bg=green
+/Automobil/
+--
++ marca: String
++ model: String
++ matricula: String
++ km: float
+__# totalAuto: int__
+--
++ mostrarDades(): String
+/+ consumBenzina(in litresX100: Float): float/
+__+ getTotalAutos():int__
+__+ matriculaCorrecta(in matricula:String): bool __
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>420</y><w>490</w><h>140</h></coordinates><panel_attributes>transparency=90
+bg=red
+Coche
+--
+- combustible: String
+--
++ Cotxe()
++ Cotxe(in marca: String, in model: String, in matricula: String, in combustible: String)
++ consumBenzina(in litresX100: Float): Float
++ mostrarDades(): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>170</y><w>30</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;250</additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>270</y><w>490</w><h>140</h></coordinates><panel_attributes>transparency=90
+bg=blue
+Camio
+--
+- pes_maxin: float
+--
++ Camio()
++ Camio(in marca: String, in model: String, in matricula: String, in combustible: String)
++ consumBenzina(in litresX100: Float): Float
++ mostrarDades(): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>170</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>0</y><w>200</w><h>50</h></coordinates><panel_attributes>/AbstractClass/
+Les classes abstractes en cursiva
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
